@@ -8,8 +8,8 @@ video_directory = "/home/gth/endless-media-files"
 # Function to get a list of video files in the directory
 def get_video_files(directory):
     video_files = [f for f in os.listdir(directory) if f.endswith((".mp4", ".avi", ".mkv"))]
-    random.shuffle(video_files)
-    return (video_files)  # Sort the files for playback order
+    random.shuffle(video_files) # Rnadomize the order
+    return (video_files)  
 
 # Function to play videos continuously
 def play_videos(video_files):
