@@ -1,5 +1,7 @@
 # endless-media
 
+### my use case: automated digital art/furniture installations containing media (playlists/movies/shows)
+
 ### file_script.py
 
 * takes files from a directory on your system as input.
