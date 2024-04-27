@@ -2,7 +2,8 @@ import os
 import subprocess
 import random
 
-
+# CHANGE HERE
+text_file_with_urls="urls/youtube_mixes.txt"
 # function reads every line of txt file into list as an element.
 def read_file_lines(filename):
     lines = []
@@ -23,7 +24,7 @@ def play_videos(video_urls):
 def main():
     
     while True:
-        video_urls = read_file_lines("youtube_urls.txt")
+        video_urls = read_file_lines(text_file_with_urls)
         play_videos(video_urls)
 
 if __name__ == "__main__":

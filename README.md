@@ -13,6 +13,12 @@
 
 * same thing except takes a txt file with youtube urls as input.
 
+### url_text_file_generator.py
+
+* easily creates a text file with the correct urls for all video in a playlist.
+* web scraping youtube wasnt possible because they use js torender everything to the DOM.
+* found this nifty workaround by noticing the urls were all the same except the index on the end. voila. 
+
 ### use:
 
 * simply have python installed on your machine.

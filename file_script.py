@@ -2,6 +2,7 @@ import os
 import subprocess
 import random
 
+# CHANGE HERE
 # Directory containing the video files
 video_directory = "/home/gth/endless-media-files"
 
